@@ -10,8 +10,12 @@ const FeaturedProjects = () => {
 
             <div className="two-full-columns">
                 <div className="column-40 project" >
-                    <h3>01.LIVING ROOM REMODEL</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio minus reiciendis fuga eligendi sunt! Rerum officiis minima assumenda inventore eaque?</p>
+                    <h3>01. LIVING ROOM REMODEL</h3>
+                    <p>A contemporary property was fitted with
+                    made-to-measure storage and furniture, which
+                    helped turn a work of art into an idyllic home for
+                    our family client.
+                    </p>
                     <div className="project-detail">
                         <div className="yellow-line"></div>
                         <a className="font-ital" href="">View Project</a>
@@ -27,8 +31,12 @@ const FeaturedProjects = () => {
                     <img src={Kitchen2} alt=""/>
                 </div>
                 <div className="column-40  project">
-                    <h3>01.LIVING ROOM REMODEL</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio minus reiciendis fuga eligendi sunt! Rerum officiis minima assumenda inventore eaque?</p>
+                    <h3>02. KITCHEN REMODELING</h3>
+                    <p>Kitchen remodeling is considered one of the
+                    most desirable remodeling projects for its
+                    potential impact on daily living and increase
+                    in property value.
+                    </p>
                     <div className="project-detail">
                         <div className="yellow-line"></div>
                         <a className="font-ital" href="">View Project</a>
