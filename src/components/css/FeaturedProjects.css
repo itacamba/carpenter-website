@@ -1,0 +1,36 @@
+#projects{
+    background: #242323;
+}
+.project:first-child{
+    padding-left: 10%;
+}
+.project:nth-child(2){
+    padding-right: 10%;
+}
+.project-detail{
+    margin-top: 30px;
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.yellow-line{
+    width: 50%;
+    height: 1px;
+    background-color: #BFA150;
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width: 1132px){
+    .project:first-child{
+        padding: 0;
+    }
+    .project-detail{
+        margin-bottom: 40px;
+    }
+    #projects .two-full-columns:last-child{
+        flex-direction: column-reverse;
+    }
+}

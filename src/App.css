@@ -1,38 +1,150 @@
-.App {
-  text-align: center;
-}
+/* 
+Baskerville Regular 
+  font-family: baskerville-urw, serif;
+  font-weight: 400;
+  font-style: normal;
+Baskerville Italic
+  font-family: baskerville-urw, serif;
+  font-weight: 400;
+  font-style: italic;
+CopperPlate Bold
+  font-family: copperplate, serif;
+  font-weight: 700;
+  font-style: normal;
+*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+  font-size: 30px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h3{
+  letter-spacing: 3px;
+  line-height: 25px;
+}
+h1,h2,h3{
+  font-family: copperplate, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+p{
+  font-size: 22px;
+  margin-top: 20px;
+  font-family: baskerville-urw, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.font-ital{
+  font-size: 20px;
+  font-family: baskerville-urw, serif;
+  font-style: italic;
+}
+.top-bot-pad{
+  padding: 80px 0;
+}
+.two-columns{
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 80px 10%;
 }
-
-.App-link {
-  color: #61dafb;
+.two-full-columns{
+  width: 100%;
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.column-40{
+  width: 40%;
+}
+.column-40 img{
+  width: 100%;
+  display: block;
+}
+.column-45{
+  width: 45%;
+}
+.column-45 img{
+  width: 100%;
+  display: block;
+}
+.column-50{
+  width: 50%;
+}
+.column-50 img{
+  width: 100%;
+  display: block;
+}
+.left-pad-10{
+  padding-left: 10%;
+}
+.right-pad-10{
+  padding-right: 10%;
+}
+.top-pad{
+  padding-top: 60px;
+}
+@media screen and (max-width: 1132px){
+  .two-columns{
+    flex-direction: column;
+    padding: 60px 0;
   }
-  to {
-    transform: rotate(360deg);
+  .two-full-columns{
+    flex-direction: column;
+    padding: 60px 0;
+  }
+  .column-40{
+    width: 80%;
+  }
+  .column-45{
+    width: 80%;
+  }
+  .column-50{
+    width: 80%;
+  }
+
+}
+@media screen and (max-width: 950px){
+  h1{
+    font-size: 25px;
+  }
+  h2{
+    font-size: 21px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  a{
+    font-size: 15px;
+  }
+  p{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 400px){
+  h1{
+    font-size: 20px;
+  }
+  h2{
+    font-size: 17px;
+  }
+  h3{
+    font-size: 14px;
+  }
+  a{
+    font-size: 14px;
+  }
+  p{
+    font-size: 16px;
   }
 }

@@ -1,0 +1,9 @@
+#grow-from{
+    background:#0d0d0d;
+}
+
+@media screen and (max-width: 1132px){
+    #grow-from .column-40{
+        margin-bottom: 40px;
+    }
+}
