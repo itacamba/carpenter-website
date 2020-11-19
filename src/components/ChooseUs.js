@@ -20,7 +20,7 @@ const ChooseUs = () => {
       };
       
     return (
-        <div className="why-us">
+        <div id="why-us" className="why-us">
             <h1>WHY CHOOSE US?</h1>
             <p>We meticulously plan each project we work on.
                 From our initial meeting through to installation, our
@@ -28,13 +28,13 @@ const ChooseUs = () => {
                 Quality and creativity.</p>
             <Slider {...settings}>
                 <div className="each-slide">
-                    <img src={Slide1} alt="" width="100%" style={{display: "block"}}/>
+                    <img src={Slide1} alt="" width="100%"  />
                 </div>
                 <div className="each-slide">
-                    <img src={Slide2} alt="" width="100%" style={{display:"block"}}/>
+                    <img src={Slide2} alt="" width="100%"  />
                 </div>
                 <div className="each-slide">
-                    <img src={Slide3} alt="" width="100%" style={{display: "block"}}/>
+                    <img src={Slide3} alt="" width="100%"  />
                 </div>
             </Slider>
         </div>

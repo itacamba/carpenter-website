@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 25px 10%;
+    padding: 35px 10%;
     position: relative;
     z-index: 1;
 }
@@ -28,6 +28,7 @@
 }
 #mobile-menu a{
     padding-bottom: 30px;
+    cursor: pointer;
 }
 .mobile-icon{
     display: none;
@@ -38,9 +39,10 @@
 /* END Hidden on desktop */
 
 .nav a{
-    padding-left: 55px;
+    padding-left: 45px;
     font-size:14px;
     font-family: copperplate, serif;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 880px){
@@ -88,5 +90,19 @@
         height: 100%;
         line-height: 40px;
         font-size: 20px;
+    }
+}
+@media screen and (max-width: 500px){
+    .mobile-icon{
+        width: 28px;
+        height: 18px;
+    }
+    .call-to-action{
+        width: 35px;
+        height: 35px;
+    }
+    .call-to-action i{
+        line-height: 35px;
+        font-size: 16px;
     }
 }

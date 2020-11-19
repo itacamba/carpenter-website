@@ -21,19 +21,79 @@ const Navigation = () => {
                 <div className="x-icon" onClick={() => setOpen(!open)}>
                     <i className="fas fa-times"></i>
                 </div>
-                <a href="">SERVICES</a>
-                <a href="">WORK</a>
-                <a href="">TESTIMONIALS</a>
-                <a href="">CONTACT</a>
+
+                <Link
+                    activeClass="active"
+                    to="projects"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                >WORK</Link>
+
+                <Link
+                    activeClass="active"
+                    to="services"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                >SERVICES</Link>
+
+
+                <Link
+                    activeClass="active"
+                    to="why-us"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                >WHY US</Link>
+
+                <Link
+                    activeClass="active"
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                >CONTACT US</Link>
+
             </div>
             <div className="logo">
                 <h1>A1CARPENTRY</h1>
             </div>
             <nav className="nav">
-                <a href="">SERVICES</a>
-                <a href="">WORK</a>
-                <a href="">TESTIMONIALS</a>
-                <a href="">CONTACT</a>
+
+                <Link
+                    activeClass="active"
+                    to="projects"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                >WORK</Link>
+
+                <Link
+                    activeClass="active"
+                    to="services" 
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                >SERVICES</Link>
+
+
+                <Link
+                    activeClass="active"
+                    to="why-us"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                >WHY US</Link>
+
+                <Link
+                    activeClass="active"
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                >CONTACT US</Link>
+                
             </nav>
             <div className="call-to-action">
                 <a href="tel:5712016904"><i className="fas fa-phone"></i></a>
