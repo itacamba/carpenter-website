@@ -4,6 +4,7 @@ import FeaturedProjects from './FeaturedProjects'
 import OurServices from './OurServices'
 import Main from './Main';
 import ServingMaryland from './ServingMaryland';
+import Contact from './Contact';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <FeaturedProjects/>
             <OurServices/>
             <ServingMaryland/>
+            <Contact/>
         </div>
     );
 };

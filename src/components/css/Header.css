@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 30px 10%;
+    padding: 25px 10%;
     position: relative;
     z-index: 1;
 }
@@ -38,7 +38,8 @@
 /* END Hidden on desktop */
 
 .nav a{
-    padding-left: 25px;
+    padding-left: 55px;
+    font-size:14px;
     font-family: copperplate, serif;
 }
 

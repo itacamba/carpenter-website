@@ -9,9 +9,10 @@ const OurServices = () => {
     return (
         <div id="services">
             <h2>OUR SERVICES</h2>
+            <div className="vertical-line"></div>
             {slide === 1?
                 <div className="service">
-                    <h1>KITCHEN REMODEL</h1>
+                    <h1>KITCHEN REMODELING</h1>
                     <p>We are experts in kitchen fitting, repair and
                         renovation. Our qualified kitchen installation 
                         team will fit any make of units. If your kitchen 

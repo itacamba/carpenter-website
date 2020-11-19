@@ -1,7 +1,10 @@
 #grow-from{
     background:#0d0d0d;
 }
-
+#grow-from > .column-40{
+    border-left: 2px solid #BFA150;
+    padding-left: 20px;
+}
 @media screen and (max-width: 1132px){
     #grow-from .column-40{
         margin-bottom: 40px;

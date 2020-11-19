@@ -1,0 +1,124 @@
+#contact{
+    width: 100%;
+    text-align: center;
+    background-color: #0d0d0d;
+    padding: 80px 10%;
+}
+.form-error{
+    display: none;
+}
+.email-js-error{
+    display: none;
+}
+.form-success{
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(168, 168, 168, 0.5);
+    height: 100vh;
+    display: none;
+
+}
+.form-success-content{
+    width: 50%;
+    border-radius: 5px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    height: 250px;
+    background-color: #c38e1c;
+    transform: translate(-50%,-50%);
+}
+.form-success-content h1{
+    margin-top: 13%;
+    padding: 0 10px;
+    color: #5a4407;
+}
+.form-success-content p{
+    margin-top: 10px;
+    padding: 0 10px;
+    color: #0d0d0d;
+}
+.email-js-error{
+    display: block;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 60px;
+    background-color: #c03939;
+    color: #fdfdfd;
+    text-align: center;
+    z-index: 10;
+    display: none;
+}
+.email-js-error p {
+    margin-top: 15px;
+    
+}
+
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #242323;
+    border-radius: 5px;
+}
+
+
+.contact-form input, textarea{
+    height: 35px;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.479);
+    background: transparent;
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}
+.contact-form ::-webkit-input-placeholder {
+    font-family: baskerville-urw, serif;
+    font-style: italic;
+  }
+  
+.contact-form :-ms-input-placeholder {
+    font-family: baskerville-urw, serif;
+    font-style: italic;
+  }
+  
+.contact-form :-moz-placeholder {
+    font-family: baskerville-urw, serif;
+    font-style: italic;
+  }
+  
+.contact-form ::-moz-placeholder {
+    font-family: baskerville-urw, serif;
+    font-style: italic;
+  }
+.contact-form textarea{
+    font-size: 18px;
+}
+.contact-form input[type="submit"]{
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background-color: #BFA150;
+    color: #000;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -webkit-border-radius: 5px;
+}
+
+
+.form-error{
+    margin-top: 15px;
+    color: rgb(165, 7, 7);
+    font-size: 14px;
+}
