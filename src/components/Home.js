@@ -5,6 +5,7 @@ import OurServices from './OurServices'
 import Main from './Main';
 import ServingMaryland from './ServingMaryland';
 import Contact from './Contact';
+import ChooseUs from './ChooseUs';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <GrowFrom/>
             <FeaturedProjects/>
             <OurServices/>
+            <ChooseUs/>  {/*slider is here */}
             <ServingMaryland/>
             <Contact/>
         </div>

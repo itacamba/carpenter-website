@@ -6,10 +6,13 @@
     text-align: center;
     padding: 150px 0;
 }
-#serving-maryland h3{
+.serving-maryland-content{
+    padding: 0 10%;
+}
+.serving-maryland-content h3{
     margin-top: 30px;
 }
-#serving-maryland p{
+.serving-maryland-content p{
     margin-top: 10px;
 }
 .address-title{
