@@ -99,10 +99,11 @@ const Navigation = () => {
                 <a href="tel:5712016904"><i className="fas fa-phone"></i></a>
             </div>
 
-            {/* <div className="to-top-btn" onClick={scrollToTop}>
+            <div className="to-top-btn" onClick={scrollToTop}>
                 <i className="fas fa-arrow-up"></i>
-            </div> */}
+            </div>
         </header>
+        
     );
 };
 
