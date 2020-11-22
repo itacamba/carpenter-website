@@ -71,7 +71,7 @@ export default function Contact() {
   
     return (
         <div id="contact">
-            <h1>LET'S WORK TOGETHER</h1>
+            <h1>LET'S BUILD YOUR VISION</h1>
             <p>Give us a call or fill out the form, and we will get back to you promptly.</p>
             <div className="form-error">
                 * Please fill out all required fields.

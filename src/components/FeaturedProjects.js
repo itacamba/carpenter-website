@@ -18,17 +18,17 @@ const FeaturedProjects = () => {
                     </p>
                     <div className="project-detail">
                         <div className="yellow-line"></div>
-                        <a className="font-ital" href="">View Project</a>
+                        <a className="font-ital" href="#/">View Project</a>
                     </div>
                 </div>
                 <div className="column-50">
-                    <img src={LivingRoom} alt=""/>
+                    <img src={LivingRoom} alt="living_room_remodel"/>
                 </div>
             </div>
 
             <div className="two-full-columns">
                 <div className="column-50">
-                    <img src={Kitchen2} alt=""/>
+                    <img src={Kitchen2} alt="kitchen_remodel"/>
                 </div>
                 <div className="column-40  project">
                     <h3>02. KITCHEN REMODELING</h3>
@@ -39,7 +39,7 @@ const FeaturedProjects = () => {
                     </p>
                     <div className="project-detail">
                         <div className="yellow-line"></div>
-                        <a className="font-ital" href="">View Project</a>
+                        <a className="font-ital" href="#/">View Project</a>
                     </div>
                 </div>
 
