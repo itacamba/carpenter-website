@@ -12,7 +12,7 @@ const Navigation = () => {
     };
 
     return (
-        <header className="header">
+        <header className="header" id="header">
             <div className="mobile-icon" onClick={() => setOpen(!open)}>
                 <div className="menu-line"></div>
                 <div className="menu-line"></div>
