@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./css/Header.css"
+import Logo from "../images/logo.png"
 import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navigation = () => {
@@ -57,7 +58,7 @@ const Navigation = () => {
 
             </div>
             <div className="logo">
-                <h1>A1CARPENTRY</h1>
+                <img src={Logo} alt="weiger_logo"/>
             </div>
             <nav className="nav">
 

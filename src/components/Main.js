@@ -6,7 +6,7 @@ import Carpenter from "../images/main-darker.jpeg"
 const Main = () => {
     return (
         <main className="main">
-            <img src={Carpenter} alt="carpenter"/>
+            {/* <img src={Carpenter} alt="carpenter"/> */}
             <div className="main-content">
                 <h3>RE-BUILD YOUR PRESENT</h3>
                 <p>Handmade, Bespoke, High quality.</p>

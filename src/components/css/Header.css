@@ -4,7 +4,8 @@
     align-items: center;
     width: 100%;
     padding: 35px 10%;
-    position: relative;
+    position: absolute;
+    top:0;
     z-index: 1;
 }
 /* Hidden on desktop */
@@ -38,6 +39,12 @@
 }
 /* END Hidden on desktop */
 
+.logo{
+    width: 150px;
+}
+.logo img{
+    width: 100%;
+}
 .nav a{
     padding-left: 45px;
     font-size:14px;

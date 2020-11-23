@@ -1,26 +1,36 @@
 .main{
     width: 100%;
-    margin-top: -110px;
-    position: relative;
+    background-image: url(../../images/main-darker.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
 }
-.main img{
+/* .main img{
     width: 100%;
     display: block;
-}
+} */
 .main-content{
     width: 100%;
     position: absolute;
-    top: 55%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
 }
-@media screen and (max-width: 500px){
-    .main{
-        height: 350px;
+@media screen and (max-width: 750px){
+    .main-content{
+        top: 30%;
     }
+    .main{
+        height: 75vh;
+    }
+       
     .main img{
         width: auto;
         height: 100%;
     }
+}
+@media screen and (max-width: 500px){
+
 }
