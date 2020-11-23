@@ -1,6 +1,6 @@
 import React from 'react';
 import "./css/Main.css"
-import Carpenter from "../images/main-darker.jpeg"
+// import Carpenter from "../images/main-darker.jpeg"
 
 
 const Main = () => {
