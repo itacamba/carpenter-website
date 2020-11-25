@@ -1,15 +1,12 @@
 import React, { useState } from 'react';
 import "./css/Header.css"
 import Logo from "../images/logo.png"
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link} from "react-scroll";
 
 const Navigation = () => {
     // Declare a new state variable, which we'll call "count"
     const [open, setOpen] = useState(false)
 
-    const scrollToTop = () => {
-        scroll.scrollToTop();
-    };
 
     return (
         <header className="header" id="header">
@@ -100,9 +97,6 @@ const Navigation = () => {
                 <a href="tel:5712016904"><i className="fas fa-phone"></i></a>
             </div>
 
-            <div className="to-top-btn" onClick={scrollToTop}>
-                <i className="fas fa-arrow-up"></i>
-            </div>
         </header>
         
     );

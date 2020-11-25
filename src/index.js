@@ -18,8 +18,6 @@ reportWebVitals();
 
 
 /* Hide and Show Header on Scroll */
-
-
   let doc = document.documentElement
   let w = window
   
@@ -29,7 +27,7 @@ reportWebVitals();
   let curDirection =  0;
   let prevDirection = 0;
 
-  let treshold = 200;
+  let treshold = 400;
   let toggled;
 
   // scroll Up => 1
@@ -57,13 +55,16 @@ reportWebVitals();
   }
   const toggleHeader = () => {
     if(curDirection === 2 && curScroll > treshold){
-      header.style.display = "none"
+      // when scrolling down
+        header.classList.add('hide')
     } else if(curDirection === 1){
-      header.style.display = "flex"
+      // when scrolling up
+      header.classList.remove('hide')
+      // header.style.display = "flex"
     } else {
       toggled = false
     }
     return toggled
   }
   window.addEventListener('scroll', checkScroll)
-
+/* End hide and show header */
