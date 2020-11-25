@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import "./css/Header.css"
 import Logo from "../images/logo.png"
 import { Link} from "react-scroll";
+import PhoneIcon from "../images/phone-icon.png"
 
 const Navigation = () => {
     // Declare a new state variable, which we'll call "count"
@@ -94,7 +95,10 @@ const Navigation = () => {
                 
             </nav>
             <div className="call-to-action">
-                <a href="tel:5712016904"><i className="fas fa-phone"></i></a>
+                {/* <a href="tel:5712016904"><i className="fas fa-phone"></i></a> */}
+                <a href="tel:5712016904">
+                    <img src={PhoneIcon} alt="phone"/>
+                </a>
             </div>
 
         </header>

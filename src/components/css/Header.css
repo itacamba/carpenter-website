@@ -43,6 +43,11 @@
 }
 .call-to-action{
     display: none;
+    width: 40px;
+}
+.call-to-action img{
+    display: flex;
+    width: 100%;
 }
 /* END Hidden on desktop */
 
