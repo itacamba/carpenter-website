@@ -5,12 +5,24 @@ import { Link} from "react-scroll";
 import PhoneIcon from "../images/phone-icon.png"
 
 const Navigation = () => {
-    // Declare a new state variable, which we'll call "count"
+    // the following state controls the mobile menu when opened
     const [open, setOpen] = useState(false)
+
+    // Hide and show header on scroll 
+    const [navbar, setNavbar] = useState(false)
+
+    const toggleNavbar = () => {
+        if(window.scrollY >= 200){
+            setNavbar(true)
+        } else if(window.scrollY <= 200){
+            setNavbar(false)
+        }
+    }
+    window.addEventListener('scroll', toggleNavbar)
 
 
     return (
-        <header className="header" id="header">
+        <header className={navbar? 'header hide' : 'header'} id="header">
             <div className="mobile-icon" onClick={() => setOpen(!open)}>
                 <div className="menu-line"></div>
                 <div className="menu-line"></div>
