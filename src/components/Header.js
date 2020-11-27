@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./css/Header.css"
-// import Logo from "../images/logo.png"
+import Logo from "../images/logo.png"
 import { Link} from "react-scroll";
 import PhoneIcon from "../images/phone-icon.png"
 
@@ -14,14 +14,17 @@ const Navigation = () => {
 
     const toggleNavbar = () => {
         let currentY = window.pageYOffset
-        // let header = document.getElementById('header')
+        let header = document.getElementById('header')
         if(prevY < currentY){ // going down
             setPrevY(currentY)
             setNavbar(true)
         } else { // going up
+            header.classList.add('white')
             setNavbar(false)
         } 
-        if(currentY < 200)
+        if(currentY < 200){
+            setNavbar(false)
+        }
         setPrevY(currentY)    
     }
 
