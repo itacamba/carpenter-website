@@ -22,6 +22,8 @@ const Navigation = () => {
                 setNavbar(false)
             } 
             setPrevY(currentY)    
+        } else {
+            setNavbar(false)
         }
     }
 
