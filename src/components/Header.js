@@ -10,11 +10,15 @@ const Navigation = () => {
 
     // Hide and show header on scroll 
     const [navbar, setNavbar] = useState(false)
+    const [currentY, setCurrentY] = useState(0)
 
     const toggleNavbar = () => {
         if(window.scrollY >= 200){
+            // if scrollY > 200 hide navbar
             setNavbar(true)
-        } else if(window.scrollY <= 200){
+            setCurrentY(1)
+        } else if(window.scrollY <= 200 && currentY == 1){
+            // else show it 
             setNavbar(false)
         }
     }
