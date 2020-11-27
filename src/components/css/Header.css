@@ -123,6 +123,13 @@
     }
 }
 @media screen and (max-width: 500px){
+    .header{
+        padding: 15px 5%;
+    }
+    .logo{
+        width: 100px;
+        min-height: 68px;
+    }
     .mobile-icon{
         width: 28px;
         height: 18px;

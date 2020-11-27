@@ -12,30 +12,34 @@ import "./css/ChooseUs.css"
 
 const ChooseUs = () => {
     const settings = {
-        dots: true,
+        // dots: true,
         infinite: true,
+        autoplay: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        arrows: false
       };
       
     return (
-        <div id="why-us" className="why-us">
-            <h1>WHY CHOOSE US?</h1>
-            <p>We meticulously plan each project we work on.
-                From our initial meeting through to installation, our
-                Team follows a process that allows us to ensure
-                Quality and creativity.</p>
+        <div>
+            <div id="why-us" className="why-us">
+                <h1>WHY CHOOSE US?</h1>
+                <p>We meticulously plan each project we work on.
+                    From our initial meeting through to installation, our
+                    Team follows a process that allows us to ensure
+                    Quality and creativity.</p>
+            </div>
             <Slider {...settings}>
-                <div className="each-slide">
-                    <img src={Slide1} alt="" width="100%"  />
-                </div>
-                <div className="each-slide">
-                    <img src={Slide2} alt="" width="100%"  />
-                </div>
-                <div className="each-slide">
-                    <img src={Slide3} alt="" width="100%"  />
-                </div>
+                    <div className="each-slide">
+                        <img src={Slide1} alt="" width="100%"  />
+                    </div>
+                    <div className="each-slide">
+                        <img src={Slide2} alt="" width="100%"  />
+                    </div>
+                    <div className="each-slide">
+                        <img src={Slide3} alt="" width="100%"  />
+                    </div>
             </Slider>
         </div>
     );

@@ -122,3 +122,12 @@
     color: rgb(165, 7, 7);
     font-size: 14px;
 }
+
+@media screen and (max-width: 500px){
+    #contact{
+        padding: 60px 5%;
+    }
+    .contact-form{
+        padding: 15px;
+    }
+}
