@@ -9,29 +9,30 @@ const Navigation = () => {
     const [open, setOpen] = useState(false)
 
     // Hide and show header on scroll 
-    const [navbar, setNavbar] = useState(false)
-    const [prevY, setPrevY] = useState(0)
+    // const [navbar, setNavbar] = useState(false)
+    // const [prevY, setPrevY] = useState(0)
 
-    const toggleNavbar = () => {
-        let currentY = window.pageYOffset
-        if(currentY > 200){
-            if(prevY < currentY){ // going down
-                setPrevY(currentY)
-                setNavbar(true)
-            } else { // going up
-                setNavbar(false)
-            } 
-            setPrevY(currentY)    
-        } else {
-            setNavbar(false)
-        }
-    }
+    // const toggleNavbar = () => {
+    //     let currentY = window.pageYOffset
+    //     if(currentY > 200){
+    //         if(prevY < currentY){ // going down
+    //             setPrevY(currentY)
+    //             setNavbar(true)
+    //         } else { // going up
+    //             setNavbar(false)
+    //         } 
+    //         setPrevY(currentY)    
+    //     } else {
+    //         setNavbar(false)
+    //     }
+    // }
 
-    window.addEventListener('scroll', toggleNavbar)
+    // window.addEventListener('scroll', toggleNavbar)
 
 
     return (
-        <header className={navbar? 'header hide' : 'header'} id="header">
+        // <header className={navbar? 'header hide' : 'header'} id="header">
+        <header className="header" id="header">
             <div className="mobile-icon" onClick={() => setOpen(!open)}>
                 <div className="menu-line"></div>
                 <div className="menu-line"></div>
