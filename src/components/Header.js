@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./css/Header.css"
-import Logo from "../images/logo.png"
+// import Logo from "../images/logo.png"
 import { Link} from "react-scroll";
 import PhoneIcon from "../images/phone-icon.png"
 
@@ -10,18 +10,21 @@ const Navigation = () => {
 
     // Hide and show header on scroll 
     const [navbar, setNavbar] = useState(false)
-    const [currentY, setCurrentY] = useState(0)
+    const [prevY, setPrevY] = useState(0)
 
     const toggleNavbar = () => {
-        if(window.scrollY >= 200){
-            // if scrollY > 200 hide navbar
+        let currentY = window.pageYOffset
+        // let header = document.getElementById('header')
+        if(prevY < currentY){ // going down
+            setPrevY(currentY)
             setNavbar(true)
-            setCurrentY(1)
-        } else if(window.scrollY <= 200 && currentY == 1){
-            // else show it 
+        } else { // going up
             setNavbar(false)
-        }
+        } 
+        if(currentY < 200)
+        setPrevY(currentY)    
     }
+
     window.addEventListener('scroll', toggleNavbar)
 
 
@@ -71,9 +74,17 @@ const Navigation = () => {
                 >CONTACT US</Link>
 
             </div>
+
+
+
             <div className="logo">
-                <img src={Logo} alt="weiger_logo"/>
+                {/* <img src={Logo} alt="weiger_logo"/> */}
             </div>
+
+
+
+
+
             <nav className="nav">
 
                 <Link
