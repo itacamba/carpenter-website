@@ -52,21 +52,6 @@
     width: 100%;
 }
 /* END Hidden on desktop */
-
-.logo{
-    width: 147px;
-    min-height: 100px;
-    background-image: url(../../images/logo.png);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    /* border:1px solid red; */
-}
-
-/* .logo img{
-    width: 100%;
-} */
 .nav a{
     padding-left: 45px;
     font-size:14px;

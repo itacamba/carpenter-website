@@ -1,10 +1,33 @@
 #footer{
     /* position: relative; */
     color: #000;
+    background-color:#242323;
+    width: 100%;
+    padding: 80px 10%;
 }
-#footer h1{
-    color: #000;
+#footer .logo{
+    margin: 0 auto;
 }
+.footer-nav{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav a{
+    cursor: pointer;
+}
+.copyright{
+    width: 100%;
+    padding: 0 5%;
+    padding-top: 20px;
+    font-size: 10px;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,.5);
+    margin-top: 40px;
+}
+
 .to-top-btn{
     position: fixed;
     width: 50px;
@@ -20,4 +43,16 @@
     padding-top: 10px;
     color: #fff;
     font-size: 25px;
+}
+
+@media screen and (max-width: 600px){
+    .footer-nav{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer-nav a{
+        margin-bottom: 15px;
+    }
 }

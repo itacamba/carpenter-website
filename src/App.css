@@ -100,6 +100,17 @@ p{
 .top-pad{
   padding-top: 60px;
 }
+.logo{
+  width: 147px;
+  min-height: 100px;
+  background-image: url(./images/logo.png);
+  /* background-image: url(../images/logo.png); */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* border:1px solid red; */
+}
 @media screen and (max-width: 1132px){
   .two-columns{
     flex-direction: column;

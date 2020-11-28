@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import "../App.css"
 import "./css/Header.css"
-// import Logo from "../images/logo.png"
+
 import { Link} from "react-scroll";
 import PhoneIcon from "../images/phone-icon.png"
 
@@ -8,30 +9,7 @@ const Navigation = () => {
     // the following state controls the mobile menu when opened
     const [open, setOpen] = useState(false)
 
-    // Hide and show header on scroll 
-    // const [navbar, setNavbar] = useState(false)
-    // const [prevY, setPrevY] = useState(0)
-
-    // const toggleNavbar = () => {
-    //     let currentY = window.pageYOffset
-    //     if(currentY > 200){
-    //         if(prevY < currentY){ // going down
-    //             setPrevY(currentY)
-    //             setNavbar(true)
-    //         } else { // going up
-    //             setNavbar(false)
-    //         } 
-    //         setPrevY(currentY)    
-    //     } else {
-    //         setNavbar(false)
-    //     }
-    // }
-
-    // window.addEventListener('scroll', toggleNavbar)
-
-
     return (
-        // <header className={navbar? 'header hide' : 'header'} id="header">
         <header className="header" id="header">
             <div className="mobile-icon" onClick={() => setOpen(!open)}>
                 <div className="menu-line"></div>
