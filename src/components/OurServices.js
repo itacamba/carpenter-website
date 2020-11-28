@@ -6,6 +6,34 @@ const OurServices = () => {
 
     const [slide,setSlide] = useState(1)
 
+    // after 2 seconds do this
+    // setTimeout(() => {
+    //     let counter = 2
+    //     setInterval(() => {
+    //         setSlide(counter)
+    //         console.log("count: ",counter)
+    //         counter += 1
+    //         if(counter > 3){
+    //             counter = 1
+    //         }
+    //     }, 2000)
+        
+    // }, 2000)
+    // create a counter that starts at 2, and only goes till 3
+    // let counter = 1
+    // setInterval(() => {
+    //     setSlide(counter)
+    //     counter += 1
+    //     if(counter >= 3){
+    //         counter = 1
+    //     }
+    // },2000)
+
+
+
+
+
+
     return (
         <div id="services">
             <h2>OUR SERVICES</h2>

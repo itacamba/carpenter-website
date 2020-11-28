@@ -11,13 +11,6 @@
     width: 100%;
     padding: 0;
 }
-.slick-dots li.slick-active button:before{
-    color: #fff;
-}
-
-.slick-dots li button:before {
-    color: rgba(255,255,255.5)
-}
 @media screen and (max-width: 500px){
     .why-us{
         padding: 80px 5%;

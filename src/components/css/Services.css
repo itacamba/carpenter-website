@@ -1,6 +1,6 @@
 #services{
     background: #0d0d0d;
-    padding: 150px 0;
+    padding: 80px 0;
 }
 #services h2{
     text-align: center;
@@ -16,28 +16,34 @@
     text-align: center;
 }
 .service p {
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
     margin-top: 40px;
     color: rgba(255,255,255,.5);
 }
-.services-btns{
-    width: 100%;
-    text-align: center;
-    margin-top: 50px;
+#services .slick-slider{
+   max-height: 400px;
+   height: 300px;
 }
-.services-btns button{
-    border: none;
-    background: transparent;
-    font-size: 20px;
-    margin: 20px;
-    font-weight: bold;
+.slider-number{
     font-family: copperplate, serif;
-    letter-spacing: 1px;
-    color: rgba(255,255,255,.5);
-    outline: 0;
-    cursor: pointer;
+    color:rgba(255,255,255,.5);
+    font-size: 20px;
+    font-weight: bold;
 }
-.services-btns button.active{
+.slick-dots{
+    bottom: -50px;
+}
+.slick-dots li{
+    margin: 30px;
+}
+.slick-dots li.slick-active a{
     color: #fff;
+}
+
+.slick-dots li button:before {
+    color: rgba(255,255,255.5)
 }
 @media screen and (max-width: 1132px){
     #services{

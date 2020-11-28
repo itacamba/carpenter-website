@@ -1,11 +1,12 @@
 import React from 'react';
 import GrowFrom from './GrowFrom';
 import FeaturedProjects from './FeaturedProjects'
-import OurServices from './OurServices'
+// import OurServices from './OurServices'
 import Main from './Main';
 import ServingMaryland from './ServingMaryland';
 import Contact from './Contact';
 import ChooseUs from './ChooseUs';
+import ServicesCarousel from './ServicesCarousel';
 
 const Home = () => {
     return (
@@ -13,7 +14,8 @@ const Home = () => {
             <Main/>
             <GrowFrom/>
             <FeaturedProjects/>
-            <OurServices/>
+            <ServicesCarousel/>
+            {/* <OurServices/> */}
             <ChooseUs/>  {/*slider is here */}
             <ServingMaryland/>
             <Contact/>
