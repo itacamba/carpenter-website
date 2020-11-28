@@ -20,9 +20,10 @@
 }
 @media screen and (max-width: 750px){
     .main-content{
-        top: 60%;
+        top: 40%;
     }
     .main{
+        background-image: url(../../images/hero-cover.jpeg);
         height: 75vh;
     }
        

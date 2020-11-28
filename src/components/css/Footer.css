@@ -16,6 +16,8 @@
     justify-content: space-between;
 }
 .footer-nav a{
+    font-family: copperplate, serif;
+    font-size: 16px;
     cursor: pointer;
 }
 .copyright{
